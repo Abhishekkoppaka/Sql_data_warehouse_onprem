@@ -6,7 +6,9 @@ Building a modren data warehouse with sql server, including ETL processes, data 
 ![1](https://github.com/user-attachments/assets/1000e3a0-447a-4bb9-81c9-0468aca9d8ec)
 
 Bronze Layer: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
+
 Silver Layer: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
+
 Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics.
 
 
