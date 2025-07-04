@@ -1,7 +1,7 @@
 /*
 create Database 'Datawarehouse' and schemas
 
-
+Warning: deletes existing database
 */
 
 USE master;
