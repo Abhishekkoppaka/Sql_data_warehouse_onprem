@@ -64,4 +64,24 @@ SELECT
 FROM [bronze].[erp_loc_a101]
 ;
 
+--loading day to silver
+INSERT INTO [silver].[erp_px_cat_g1v2]
+	(
+		[id],
+      [cat],
+      [subcat],
+      [maintenance]
+	)
+SELECT [id],
+      [cat],
+      [subcat],
+      [maintenance]
+  FROM [DataWarehouse].[bronze].[erp_px_cat_g1v2];
+
+
+---checking for unwanted space
+---none in cat and sub cat
+
+--check for data standandrization and consistancy - no issues
+
 
